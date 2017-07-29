@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'seach',
-  template: `search.component.ts`,
+    moduleId:module.id,
+    selector: 'search',
+    templateUrl: 'search.component.html'
 })
-export class SearchComponent  {  }
+export class SearchComponent {}
