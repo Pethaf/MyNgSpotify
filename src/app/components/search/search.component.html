@@ -2,6 +2,6 @@
 <p class="lead">Use the ngSpotify app to search spotify</p>
 <form>
     <div class="form-group">
-        <input type="form-control" type="text" placeholder="Search artists..." >
+        <input type="form-control" type="text" placeholder="Search artists..." [(ngModel)] = "searchStr" name="searchStr" (keyup)="searchMusic()">
     </div>
 </form>
